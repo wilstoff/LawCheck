@@ -1,1 +1,1 @@
-Framework to logically validate laws
+Framework to logically validate laws.
