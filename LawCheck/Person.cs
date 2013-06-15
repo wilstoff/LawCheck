@@ -6,10 +6,8 @@ using System.Threading.Tasks;
 
 namespace LawCheck
 {
-    /// <summary>
-    /// Encapsulates a person/government/corporation
-    /// </summary>
-    public class Entity
+    public class Person : IEntity
     {
+        public Dictionary<string, string> Rights { get; set; }
     }
 }
